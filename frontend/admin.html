@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Admin Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <aside class="sidebar">
+
+            <h2>🎓 Help Desk</h2>
+
+            <nav>
+                <a href="#">Dashboard</a>
+                <a href="#">All Requests</a>
+                <a href="#">Users</a>
+                <a href="#">Profile</a>
+            </nav>
+
+            <button class="logout-btn">
+                Logout
+            </button>
+
+        </aside>
+
+
+        <main class="dashboard-content">
+
+            <header class="dashboard-header">
+
+                <div>
+                    <h1>Admin Dashboard</h1>
+
+                    <p>
+                        Manage student requests
+                    </p>
+                </div>
+
+                <div class="profile">
+                    A
+                </div>
+
+            </header>
+
+
+            <section class="stats">
+
+                <div class="stat-card">
+                    <p>Total Requests</p>
+                    <h2>150</h2>
+                </div>
+
+                <div class="stat-card">
+                    <p>Pending</p>
+                    <h2>35</h2>
+                </div>
+
+                <div class="stat-card">
+                    <p>In Progress</p>
+                    <h2>42</h2>
+                </div>
+
+                <div class="stat-card">
+                    <p>Resolved</p>
+                    <h2>73</h2>
+                </div>
+
+            </section>
+
+
+            <section class="requests">
+
+                <div class="section-heading">
+
+                    <div>
+                        <h2>All Requests</h2>
+
+                        <p>
+                            View and manage student problems
+                        </p>
+                    </div>
+
+                    <input
+                        type="text"
+                        placeholder="Search requests..."
+                    >
+
+                </div>
+
+
+                <div class="table-wrapper">
+
+                    <table>
+
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Student</th>
+                                <th>Category</th>
+                                <th>Date</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+
+
+                        <tbody>
+
+                            <tr>
+                                <td>#1024</td>
+                                <td>Student Name</td>
+                                <td>Technical</td>
+                                <td>21 Sep 2026</td>
+
+                                <td>
+                                    <span class="status pending">
+                                        Pending
+                                    </span>
+                                </td>
+
+                                <td>
+                                    <button class="view-btn">
+                                        View
+                                    </button>
+                                </td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
