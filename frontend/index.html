@@ -3,26 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-   <header>
-    <div>
-        <h1>Logo anme</h1>
-        <img src="" alt="">
-    </div>
-   </header>
-   <nav>
-    <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-   </nav>
-   <main>
 
-   </main>
+    <title>Student Help Desk</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="auth-container">
+
+        <div class="auth-card">
+
+            <div class="logo">
+                🎓
+            </div>
+
+            <h1>Student Help Desk</h1>
+
+            <p class="subtitle">
+                Login to manage your requests
+            </p>
+
+            <!-- LOGIN -->
+
+            <form id="loginForm">
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+                </div>
+
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="Enter your password"
+                        required
+                    >
+                </div>
+
+
+                <button type="submit" class="primary-btn">
+                    Login
+                </button>
+
+            </form>
+
+
+            <p class="switch-text">
+                Don't have an account?
+
+                <a href="#" id="createAccount">
+                    Create Account
+                </a>
+            </p>
+
+        </div>
+
+    </main>
+
 </body>
 </html>
